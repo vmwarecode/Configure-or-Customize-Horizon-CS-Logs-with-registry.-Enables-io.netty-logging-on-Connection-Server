@@ -31,9 +31,9 @@
 		<Logger name="org.opensaml.xml.encryption" level="fatal" additivity="false">
 			<AppenderRef ref="WSApp"/>
 		</Logger>
-        <Logger name="io.netty" level="TRACE" additivity="false">
-            <AppenderRef ref="WSApp"/>
-        </Logger>
+                <Logger name="io.netty" level="INFO" additivity="false">
+                        <AppenderRef ref="WSApp"/>
+                </Logger>
 		<Root level="error">
 			<AppenderRef ref="WSApp"/>
 		</Root>
